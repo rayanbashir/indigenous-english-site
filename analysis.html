@@ -3,88 +3,67 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Analysis &mdash; Indigenous Literature Study</title>
+  <title>Themes &amp; Symbols &mdash; Indigenous Literature Study</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css?v=2" />
 </head>
 <body>
 
   <!-- Navbar -->
   <header class="navbar">
     <div class="nav-inner">
-      <span class="logo">Indigenous Literature</span>
+      <span class="logo">Take Us To Your Chief</span>
       <button class="hamburger" aria-label="Toggle menu">
         <span></span><span></span><span></span>
       </button>
       <nav class="nav-links">
         <a href="index.html">Home</a>
-        <a href="story.html">Story</a>
-        <a href="analysis.html" class="active">Analysis</a>
         <a href="literary-devices.html">Literary Devices</a>
+        <a href="analysis.html" class="active">Themes &amp; Symbols</a>
+        <a href="real-world-connections.html">Connections</a>
       </nav>
     </div>
   </header>
 
   <!-- Hero -->
   <section class="hero">
-    <h1>Analysis</h1>
-    <p>Explore the themes, characters, and cultural context of the story.</p>
+    <h1>Themes &amp; Symbols</h1>
+    <p>Explore the themes, symbols, and cultural context of &ldquo;Take Us to Your Chief.&rdquo;</p>
   </section>
 
   <!-- Main Content -->
   <main>
-    <!-- Themes -->
+    <!-- Motifs/Symbols -->
     <section class="section">
-      <h2 class="section-header">Themes</h2>
-      <div class="accordion">
-        <div class="accordion-item">
-          <button class="accordion-btn">Identity &amp; Belonging</button>
-          <div class="accordion-body">
-            <div class="accordion-body-inner">
-              <p>[Explain how the story explores identity and belonging. Reference specific moments from the text.]</p>
-            </div>
-          </div>
+      <h2 class="section-header">Motifs/Symbols</h2>
+
+      <div class="device-card has-img">
+        <img src="images/couch-symbol.jpg" alt="Couches on the beach" class="device-img" />
+        <div class="device-text">
+          <span class="tag">Symbol</span>
+          <h3>Couches on the Beach</h3>
+          <p class="explanation">The couches represent a routine and a comfort point for the men. Near the end of the story, despite travelling to a far away land, the men find comfort in their situation when the aliens replicate their couch for them.</p>
         </div>
-        <div class="accordion-item">
-          <button class="accordion-btn">Connection to Land</button>
-          <div class="accordion-body">
-            <div class="accordion-body-inner">
-              <p>[Discuss the relationship between the characters and the land. How does the setting carry cultural meaning?]</p>
-            </div>
-          </div>
-        </div>
-        <div class="accordion-item">
-          <button class="accordion-btn">Resilience &amp; Survival</button>
-          <div class="accordion-body">
-            <div class="accordion-body-inner">
-              <p>[Examine how resilience is shown through the characters and events of the story.]</p>
-            </div>
-          </div>
+      </div>
+
+      <div class="device-card has-img">
+        <img src="images/alien-symbol.png" alt="The aliens' arrival" class="device-img" />
+        <div class="device-text">
+          <span class="tag">Symbol</span>
+          <h3>The Aliens' Arrival</h3>
+          <p class="explanation">The aliens symbolize the European colonizers that arrived on Indigenous land hundreds of years ago. The bizarre features and technology of aliens reflect how the Indigenous felt when seeing Europeans for the first time.</p>
         </div>
       </div>
     </section>
 
-    <!-- Characters -->
+    <!-- Thematic Statement -->
     <section class="section">
-      <h2 class="section-header">Character Analysis</h2>
-      <div class="card-grid">
-        <div class="card">
-          <h3>[Character Name]</h3>
-          <p>[Brief description of the character, their role in the story, and how they develop over the course of the narrative.]</p>
-        </div>
-        <div class="card">
-          <h3>[Character Name]</h3>
-          <p>[Brief description of the character, their role in the story, and how they develop over the course of the narrative.]</p>
-        </div>
+      <h2 class="section-header">Thematic Statement</h2>
+      <div class="story-text">
+        <p>Routines and having a place or thing to return to can provide comfort when going through tough times or being in an unfamiliar situation.</p>
       </div>
-    </section>
-
-    <!-- Setting & Cultural Context -->
-    <section class="section">
-      <h2 class="section-header">Setting &amp; Cultural Context</h2>
-      <p>[Describe the setting of the story and its cultural significance. How does the author use setting to reinforce themes? What Indigenous cultural elements are present?]</p>
     </section>
 
     <!-- Quiz -->
@@ -93,19 +72,31 @@
 
       <div class="quiz-box">
         <h3>Question 1</h3>
-        <p>What is the central theme of the story?</p>
-        <button class="quiz-option" data-correct="false" data-feedback="This is a surface-level reading. Think deeper about what the author is communicating.">The beauty of nature</button>
-        <button class="quiz-option" data-correct="true" data-feedback="Correct! The story centres on the tension between cultural identity and external pressures.">The struggle to maintain cultural identity</button>
-        <button class="quiz-option" data-correct="false" data-feedback="While conflict exists, the theme goes beyond just personal disagreements.">A conflict between two friends</button>
+        <p>What do the couches on the beach represent for the three men?</p>
+        <button class="quiz-option" data-correct="false" data-feedback="The couches carry symbolic weight beyond just being furniture.">They are just a place to sit and have no deeper meaning</button>
+        <button class="quiz-option" data-correct="true" data-feedback="Correct! The couches represent routine and comfort, which is reinforced when the aliens replicate them on their planet.">Routine and a comfort point that grounds them even in unfamiliar situations</button>
+        <button class="quiz-option" data-correct="false" data-feedback="The couches aren't about wealth — they're about familiarity and comfort.">They symbolize the men's material wealth</button>
+        <button class="quiz-option" data-correct="false" data-feedback="The couches are connected to comfort, not resistance.">They represent the men's rejection of modern life</button>
         <div class="quiz-feedback"></div>
       </div>
 
       <div class="quiz-box">
         <h3>Question 2</h3>
-        <p>How does the setting contribute to the story's meaning?</p>
-        <button class="quiz-option" data-correct="false" data-feedback="The setting does more than create atmosphere — it carries cultural weight.">It provides a scenic backdrop</button>
-        <button class="quiz-option" data-correct="false" data-feedback="Consider the deeper connection between place and identity in the story.">It shows the time period</button>
-        <button class="quiz-option" data-correct="true" data-feedback="Correct! The land is tied to the characters' identity and cultural practices.">It reflects the characters' cultural connection to the land</button>
+        <p>The aliens in the story symbolize which real-world group?</p>
+        <button class="quiz-option" data-correct="false" data-feedback="The aliens arrive on Indigenous land with strange technology — think about who else did that historically.">Modern-day tourists visiting a reserve</button>
+        <button class="quiz-option" data-correct="true" data-feedback="Correct! The aliens' bizarre features and advanced technology mirror how Indigenous peoples experienced the arrival of Europeans on their land.">European colonizers arriving on Indigenous land</button>
+        <button class="quiz-option" data-correct="false" data-feedback="The story draws a historical parallel, not a governmental one.">The Canadian government</button>
+        <button class="quiz-option" data-correct="false" data-feedback="The aliens are a symbol for a specific historical group, not a general concept.">Other Indigenous nations from neighbouring territories</button>
+        <div class="quiz-feedback"></div>
+      </div>
+
+      <div class="quiz-box">
+        <h3>Question 3</h3>
+        <p>Which of the following best captures the thematic statement of the story?</p>
+        <button class="quiz-option" data-correct="false" data-feedback="The story's theme is about finding comfort through routine, not about technology.">Technology can bridge the gap between different cultures</button>
+        <button class="quiz-option" data-correct="false" data-feedback="The men don't change who they are — their routines are what carry them through.">People must adapt and leave their old ways behind to survive new situations</button>
+        <button class="quiz-option" data-correct="true" data-feedback="Correct! The men's routines — their silence, their beer, their couch — are what give them comfort even on an alien planet.">Routines and having a place or thing to return to can provide comfort when going through tough times or being in an unfamiliar situation</button>
+        <button class="quiz-option" data-correct="false" data-feedback="While humour is present, the deeper theme is about comfort and routine in unfamiliar situations.">Humour is the best way to deal with fear of the unknown</button>
         <div class="quiz-feedback"></div>
       </div>
     </section>
