@@ -1,16 +1,16 @@
 /* ===== CSS Variables / Theme ===== */
 :root {
-  --color-bg: #faf7f2;
-  --color-surface: #ffffff;
-  --color-primary: #2d6a4f;
-  --color-primary-light: #40916c;
-  --color-primary-dark: #1b4332;
-  --color-accent: #d4a373;
-  --color-accent-light: #e9c46a;
+  --color-bg: #fdf6ec;
+  --color-surface: #fffdf8;
+  --color-primary: #1a6e8a;
+  --color-primary-light: #2196b5;
+  --color-primary-dark: #0d3d50;
+  --color-accent: #e0a458;
+  --color-accent-light: #f2c97d;
   --color-text: #2b2b2b;
   --color-text-light: #555555;
-  --color-border: #d5cec0;
-  --color-hero-overlay: rgba(27, 67, 50, 0.72);
+  --color-border: #ddd3be;
+  --color-hero-overlay: rgba(13, 61, 80, 0.65);
   --font-heading: "Playfair Display", Georgia, serif;
   --font-body: "Inter", system-ui, -apple-system, sans-serif;
   --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.08);
@@ -142,7 +142,7 @@ p + p {
 /* ===== Hero Section ===== */
 .hero {
   background: linear-gradient(var(--color-hero-overlay), var(--color-hero-overlay)),
-    linear-gradient(135deg, var(--color-primary-dark), var(--color-primary));
+    linear-gradient(135deg, #0d3d50, #1a6e8a, #2196b5);
   color: #fff;
   padding: 5rem 2rem;
   text-align: center;
@@ -274,7 +274,7 @@ main {
 }
 
 .accordion-btn:hover {
-  background: rgba(45, 106, 79, 0.05);
+  background: rgba(26, 110, 138, 0.05);
 }
 
 .accordion-btn::after {
@@ -408,12 +408,12 @@ main {
 
 .quiz-option:hover {
   border-color: var(--color-primary-light);
-  background: rgba(45, 106, 79, 0.04);
+  background: rgba(26, 110, 138, 0.04);
 }
 
 .quiz-option.correct {
-  border-color: #2d6a4f;
-  background: rgba(45, 106, 79, 0.1);
+  border-color: #1a6e8a;
+  background: rgba(26, 110, 138, 0.1);
   color: var(--color-primary-dark);
   font-weight: 600;
 }
@@ -437,7 +437,7 @@ main {
 }
 
 .quiz-feedback.correct {
-  background: rgba(45, 106, 79, 0.1);
+  background: rgba(26, 110, 138, 0.1);
   color: var(--color-primary-dark);
 }
 
